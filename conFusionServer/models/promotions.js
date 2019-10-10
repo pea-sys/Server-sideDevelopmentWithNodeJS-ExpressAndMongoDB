@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Server-side-Development-with-NodeJS-Express-and-MongoDB/promoRouter.js at master · zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB</title>
+  <title>Server-side-Development-with-NodeJS-Express-and-MongoDB/promotions.js at master · zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB</title>
     <meta name="description" content="Project and Assignment&#39;s repository for Coursera&#39;s Server-side Development with NodeJS, Express and MongoDB - zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -38,9 +38,9 @@
     <meta property="og:image" content="https://avatars2.githubusercontent.com/u/18400900?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" /><meta property="og:url" content="https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" /><meta property="og:description" content="Project and Assignment&#39;s repository for Coursera&#39;s Server-side Development with NodeJS, Express and MongoDB - zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDI0NDQxODgyOjdhN2EwNWIxMjA5NTMwNTVkYWU2ZGM3NWJlZjRhOGU4MWU3ZGNlMjA0OThiYjk4MDk4OGY3OTJmODk2NjFjOTg=--bdd639b9938fc477096b58404cf18aa6415138ce">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDI0NDQxODgyOjNjNGZiMDE3YjBmNGYyMGM5OTk3ZjZlZjQ5YmVhZWQwZmI4ZTE5OGJmZjQ0NDJmZWJkZDFjNDQ2ZjJjYTNkYTg=--333b172a17affb554afb74a2a3346854e57c20c6">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="C78B:3234:7814:B1BD:5D9F30B0" data-pjax-transient>
+  <meta name="request-id" content="C779:2A54:10268:17924:5D9F3058" data-pjax-transient>
 
 
   
@@ -51,7 +51,7 @@
     <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
 
-  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C78B:3234:7814:B1BD:5D9F30B0" /><meta name="octolytics-dimension-region_edge" content="ap-northeast-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="1738871451842800491" /><meta name="octolytics-actor-id" content="49807271" /><meta name="octolytics-actor-login" content="pea-sys" /><meta name="octolytics-actor-hash" content="a39c1c1b3dcec4d85d0c08e48ae240440c2c351927f81935cffa3b99f0d8466c" />
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="C779:2A54:10268:17924:5D9F3058" /><meta name="octolytics-dimension-region_edge" content="ap-northeast-1" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="1738871451842800491" /><meta name="octolytics-actor-id" content="49807271" /><meta name="octolytics-actor-login" content="pea-sys" /><meta name="octolytics-actor-hash" content="a39c1c1b3dcec4d85d0c08e48ae240440c2c351927f81935cffa3b99f0d8466c" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -70,7 +70,7 @@
     <meta name="user-login" content="pea-sys">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NWEyMWMyNDUzZDk0YzdmMWM5OWVhZjE0YWQ2NjM2ZDEzN2RmNmZhNDRkMmZlNWIxZjZlMDVmZDAxYzY3MDAwYXx7InJlbW90ZV9hZGRyZXNzIjoiMTExLjIzOS4xNTQuMTYiLCJyZXF1ZXN0X2lkIjoiQzc4QjozMjM0Ojc4MTQ6QjFCRDo1RDlGMzBCMCIsInRpbWVzdGFtcCI6MTU3MDcxMzc4MywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="M2JkZmVlZTkzNjBhNjVjNTZlM2Q5ZDM2Y2FkODI4MWE2M2E3NTI3NTFiNTNlN2U2YzYyNGQwMjZhMTBlYjhmZXx7InJlbW90ZV9hZGRyZXNzIjoiMTExLjIzOS4xNTQuMTYiLCJyZXF1ZXN0X2lkIjoiQzc3OToyQTU0OjEwMjY4OjE3OTI0OjVEOUYzMDU4IiwidGltZXN0YW1wIjoxNTcwNzEzNjk3LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="ACTIONS_V2_ON_MARKETPLACE,MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,NOTIFY_ON_BLOCK,RELATED_ISSUES,GHE_CLOUD_TRIAL">
 
@@ -86,7 +86,7 @@
   <meta name="octolytics-dimension-user_id" content="18400900" /><meta name="octolytics-dimension-user_login" content="zeeshan87" /><meta name="octolytics-dimension-repository_id" content="110435496" /><meta name="octolytics-dimension-repository_nwo" content="zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="110435496" /><meta name="octolytics-dimension-repository_network_root_nwo" content="zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -160,7 +160,7 @@
           aria-autocomplete="list"
           aria-controls="jump-to-results"
           aria-label="Search or jump to…"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=V5nwxGyrC3LQFAl9D3OqPVRl/KPMASQTTiX2m7TvGNyCEN5XgUT7Y9IaVFfhLWw75DtoGO0EQjCOFu95BdMR1Q=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=xm0l3a0x4owgRhtsp2d4FCHzlpMOiVklpzjGfLIZqfsT5AtOQN4SnSJIRkZJOb4Ska0CKC+MPwZnC9+eAyWg8g=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -313,7 +313,7 @@
       <img class="avatar" height="20" width="20" alt="@pea-sys" src="https://avatars2.githubusercontent.com/u/49807271?s=60&amp;v=4" />
       pea-sys
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="PPhO6Z1cLpT+0W62xBFUi4Jtt2b3F13YuXXc/A57F5tNp1+RTussqb+jroK98ras0/I9UeC3lJON85xwSzk8qg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="i05wEbyu2nrMw3V0/uv9nk4JSxbwDJYNY1TKRZmCzYT6EWFpbxnYR42xtUCHCB+5H5bBIeesX0ZX0orJ3MDmtQ==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -404,7 +404,7 @@
 " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:18400900,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:49807271,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;}}" data-hydro-click-hmac="01c7eb8a6279473857a79bd08881f0b4698add1b49f01654a7293c0174a1539f">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:18400900,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:49807271,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;}}" data-hydro-click-hmac="e0a9740b7a6bab98d66574f614f4abfe9bb6708f1c3a5ccbec807a40b6419fc0">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-flex
@@ -431,7 +431,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="TLImaYpm4+68VZicFOTo7hsNSBX9eKyvOJNh1tQFek+EI79JwJrgIOCQwkH8PCuyDK8GAztpsCgk61p+7anK9g==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="PwwmwEcwv+Tj4BECs51U1g8zuDDoIsYhO4gESFl25Q33nb/gDcy8Kr8lS99bRZeKGJH2Ji4z2qYn8D/gYNpVtA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -551,17 +551,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-10-10T22:53:03+09:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2019-10-10T22:51:37+09:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-10-10T23:23:03+09:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2019-10-10T23:21:37+09:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-10-11T02:23:03+09:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2019-10-11T02:21:37+09:00">
             in 4 hours
           </button>
         </li>
@@ -613,7 +613,7 @@
     <div role="none" class="dropdown-divider"></div>
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OAFapw23hDZN1GJOL1GBVDzLSXKe6KirFCdG0/wFdQNJXkvf3gCGCwymonpWsmNzbVTDRYlIYeAgoQZfuUdeMg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QvMXfamynX8vJ15kOfHR4gw2UfZH3eh5m8FQqdaTmo4zrAYFegWfQm5VnlBAEjPFXanbwVB9ITKvRxAlk9Gxvw==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
@@ -653,10 +653,10 @@
       <p class="shelf-lead">
           Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
       </p>
-      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="c4ac1a6594925e190cad545221b85240b767f6d9b9937967f47287baf64c36d1" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
+      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="83123ffafa755460453415a493e630e108c831cf8984eac910ac243155c5689d" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="uVsZrFNKmNmalc9Ws8b9O3DEJEHuF5vozXb5YtJBVGlVkpt2gAa2O29sxs+ygOLUII19ku3Lh711wamFkTt1uQ==" />
-      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="204365df9a53b1b264efb803b2dc23b166feaf82fe4efbb32111182fd7032e00">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="NAqnRwyy3SbzyjPrS65PESYkdfxcSZys1JlJW+7m3GPYwyWd3/7zxAYzOnJK6FD+dm0sL1+VgPlsLhm8rZz9sw==" />
+      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="8949f8c24c890b6153d8a3e26c1599351766dc14cdd96d93d7345bec50f23711">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
 </button></form>  </div>
 </div>
@@ -680,10 +680,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="f7GVge827YbWi+oKIx0iRr6VapBvh6Y+GFK5BQcvuYz185qs+FxeUz0tFajyC0NK+N9rPZTu8Wgq8TAufA6BzA==" />      <input type="hidden" name="repository_id" value="110435496">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="py2pHmeyn3H3+0qGIktiVBZMVnJTr04hoke1YA8iJkEtb6YzcNgspBxdtSTzXQNYUAZX36jGGXeQ5DxLdAMeAQ==" />      <input type="hidden" name="repository_id" value="110435496">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="86db4f7d0b23864b94113737c20858f74dc4864a1a8f665639ea8234f14eacb0" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="0e0ae7b13ea419f85d2f7da9abae7cfb1ab1596d2c433887e8eb769653d1cb38" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -754,18 +754,18 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="uGc0LuOjieVihSrBzuRYrtrF8RnGEkHjgvB1KTT2rITzavQwZ7udTJsYwXbbKQKF5ppUG6dAcoifiuZaufHKUA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2bsAkb44HxfrxJpEK4NVDh/iP2CJSb3Zl+jig53ZPFWStsCPOiALvhJZcfM+Tg8lI72aYugbjrKKknHwEN5agQ==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="c8c379f43af4e29b8b867134c48e2922b3a42bc9a12b19c3719111481d505eb5" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="25c90f10d8937135ef38c03c46f6f321047a630071057cef85c391ee6aee1236" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
 </button>        <a class="social-count js-social-count" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/stargazers"
            aria-label="10 users starred this repository">
            10
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wcVgr0v7QlyWKYkQ2lqBZRf6Gj6/s4AE04r5X3aPymPrAqvXDcvmHOOezDKhmHIyUsIudJF/gLfAdBa2dPnxZQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="geSCmFGfqw4bMrkUKLXK2DTHgrPYQVMvbn8im/bjhLGrI0ngF68PTm6F/DZTdzmPcf+2+faNU5x9gc1y9JW/tw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="dc61eb9c5218177973570dca72cb56e1a60139ef815b92f618c4d6287cbecbef" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="74e5f4ff3a55a5aff8b791a6978752dcb6ff8a9362644b52a910bbec27a23509" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
 </button>        <a class="social-count js-social-count" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/stargazers"
            aria-label="10 users starred this repository">
@@ -776,8 +776,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="KjrOErzhTx4VXxwIuwT41fFzJLokmh+CEwXA9dJMRDRrqEQUJb74XituVMujSVqivY0rIoIKCO9oDIBDuvdAbg==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="ca12366bd8148483592a84dbc7b1933637c80d9f65fc7378c5bfe7c8ad15ffb8" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB to your account" aria-label="Fork your own copy of zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="EtU6FWfvq4/VRsjUV9v+ElcnMi0650xP9WQRet3EnPdTR7AT/rAcz+t3gBdPllxlG9k9tZx3WyKObVHMtX+YrQ==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:110435496,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="a13c7bd041fa24ffbb5db2f8444bd7971ddc62454dd21ef7f5be48a93b5fe52d" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB to your account" aria-label="Fork your own copy of zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
     <a href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/network/members" class="social-count"
@@ -914,9 +914,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/1d941f2f91d171192ec798ce00c925b93489236b/Assignment%202/conFusionServer/routes/promoRouter.js">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/1d941f2f91d171192ec798ce00c925b93489236b/Assignment%202/conFusionServer/models/promotions.js">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v21:c2e12c0faf9aaab61347b77a828128ff -->
+    <!-- blob contrib key: blob_contributors:v21:e9d50b7df2cc4a4182f4537019662a78 -->
       
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-column flex-md-row">
@@ -930,7 +930,7 @@
     <span class="css-truncate-target" data-menu-button>master</span>
   </summary>
 
-  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/ref-list/master/Assignment%202/conFusionServer/routes/promoRouter.js?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="select-menu-modal hx_rsm-modal position-absolute" style="z-index: 99;" src="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/ref-list/master/Assignment%202/conFusionServer/models/promotions.js?source_action=show&amp;source_controller=blob" preload>
     <include-fragment class="select-menu-loading-overlay anim-pulse">
       <svg height="32" class="octicon octicon-octoface" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
     </include-fragment>
@@ -944,17 +944,17 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="Assignment 2/conFusionServer/routes/promoRouter.js" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="Assignment 2/conFusionServer/models/promotions.js" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB"><span>Server-side-Development-with-NodeJS-Express-and-MongoDB</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202"><span>Assignment 2</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer"><span>conFusionServer</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes"><span>routes</span></a></span><span class="separator">/</span><strong class="final-path">promoRouter.js</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB"><span>Server-side-Development-with-NodeJS-Express-and-MongoDB</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202"><span>Assignment 2</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer"><span>conFusionServer</span></a></span><span class="separator">/</span><span class="js-path-segment"><a data-pjax="true" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models"><span>models</span></a></span><span class="separator">/</span><strong class="final-path">promotions.js</strong>
           <span class="separator">/</span>
           
 <details class="details-reset details-overlay select-menu d-inline">
-  <summary class="btn-link link-gray select-menu-button css-truncate" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:110435496,&quot;ref&quot;:&quot;master&quot;,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="d55c453aa305dae43ab2295f9d15fb876740ba3eab4c9f144c6b7220ea90283a">
+  <summary class="btn-link link-gray select-menu-button css-truncate" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:110435496,&quot;ref&quot;:&quot;master&quot;,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;,&quot;user_id&quot;:49807271}}" data-hydro-click-hmac="6ef7e66babcf5f59591604fd8bb75b917301d0d9d92d60f9229663862cc82a90">
     <span data-menu-button>Jump to</span>
   </summary>
   <details-menu class="select-menu-modal position-absolute" style="z-index: 99;">
@@ -988,7 +988,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="Assignment 2/conFusionServer/routes/promoRouter.js" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="Assignment 2/conFusionServer/models/promotions.js" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -996,7 +996,7 @@
 
 
 
-    <include-fragment src="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/contributors/master/Assignment%202/conFusionServer/routes/promoRouter.js" class="Box Box--condensed commit-loader">
+    <include-fragment src="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/contributors/master/Assignment%202/conFusionServer/models/promotions.js" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -1015,35 +1015,35 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      81 lines (74 sloc)
+      39 lines (36 sloc)
       <span class="file-info-divider"></span>
-    2.26 KB
+    758 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/raw/master/Assignment%202/conFusionServer/routes/promoRouter.js">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blame/master/Assignment%202/conFusionServer/routes/promoRouter.js">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/commits/master/Assignment%202/conFusionServer/routes/promoRouter.js">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/raw/master/Assignment%202/conFusionServer/models/promotions.js">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blame/master/Assignment%202/conFusionServer/models/promotions.js">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/commits/master/Assignment%202/conFusionServer/models/promotions.js">History</a>
     </div>
 
 
     <div>
             <a class="btn-octicon tooltipped tooltipped-nw hide-sm"
-               href="x-github-client://openRepo/https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB?branch=master&amp;filepath=Assignment%202%2FconFusionServer%2Froutes%2FpromoRouter.js"
+               href="x-github-client://openRepo/https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB?branch=master&amp;filepath=Assignment%202%2FconFusionServer%2Fmodels%2Fpromotions.js"
                aria-label="Open this file in GitHub Desktop"
                data-ga-click="Repository, open with desktop, type:windows">
                 <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
             </a>
 
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/edit/master/Assignment%202/conFusionServer/routes/promoRouter.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ATa7jUtz5h+S5p0szxPzyT3Cdjdu3JR1CL1Bm9spW69AEio5uEviknLiLo1BMEPbt19eAM3tNkAc6hl/nx/oeA==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/edit/master/Assignment%202/conFusionServer/models/promotions.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NpQxSTpPBUXHmbkAqfd11Gr0v3qijXghKdbzIfcTLWvEL9kQWCHPvwkc7uMO6kOgN0HLC4F7BxXXA3TaOZ0W5w==" />
               <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
                 aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
                 <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
               </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/delete/master/Assignment%202/conFusionServer/routes/promoRouter.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="5HJgjb0NwWaJNoVI4KsTG8vbWnSJ44d0tLPtUxShMkLM2CeSQd/0sL3EKmbRW+o9xWONacjSjIflsx1rnVCMGw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/delete/master/Assignment%202/conFusionServer/models/promotions.js" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="h6Mi9tpWAIN1ek2/kDKse24ajcPD9/QHunVgKWKOsGde4xHsQxX3ZlKg7YUEFB/pezlGArmKlO96Don7ZNMezw==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1065,7 +1065,7 @@
               </p>
             </div>
             <div class="col-6 p-2 text-right code-navigation-banner-illo">
-              <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-notice-dismiss" action="/settings/dismiss-notice/aleph_code_navigation_banner" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="mUYPqi8XrrThWO8r4aw6ma+1S0gaIfD2dV6fvkuSXV0U3IzBPbi2/PB038h9iYzDfNkD/9PX3HMwR/u29qZ0UQ==" />
+              <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-notice-dismiss" action="/settings/dismiss-notice/aleph_code_navigation_banner" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pm8z/tx2sKUmYFvM/em+q/XMzgOK3QxpzHxVfhSRriwr9bCVztmo7TdMay9hzAjxJqCGtEMrIOyJZTF2qaWHIA==" />
                 <button name="button" type="submit" class="btn-link link-gray" aria-label="Dismiss">
                   <svg width="20" height="20" class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
 </button></form>            </div>
@@ -1074,7 +1074,7 @@
 
         <div class="f6 v-align-middle text-gray px-3 py-2 border-bottom bg-gray-light d-flex flex-justify-between">
             <div class="d-flex text-mono">
-              <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="d-inline-block" action="/beta_enrollments" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pV+RK4H8FK5F2TrL3T5NsP81PTB37HuWRomeU9SZc4y148gERpUpG0w6TuqYdn7Ffzifv4/6h23qmliUv1+DiQ==" />
+              <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="d-inline-block" action="/beta_enrollments" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pmWNf2/9nTc8p6CtYkxALdxCbPMuoNgUkqZ/n4xxR2G22dRQqJSggjVE1IwnBHNYXE/OfNa2JO8+tblY57e3ZA==" />
                 <svg style="color: #28a745;" class="octicon octicon-primitive-dot" viewBox="0 0 8 16" version="1.1" width="8" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 8c0-2.2 1.8-4 4-4s4 1.8 4 4-1.8 4-4 4-4-1.8-4-4z"/></svg>
                 <span>You're using jump to definition to discover and navigate code. </span>
                 <button type="submit" class="btn-link">Opt out</button>
@@ -1095,24 +1095,24 @@
 <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">express</span> <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>express<span class="pl-pds">&#39;</span></span>);</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">mongoose</span> <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>mongoose<span class="pl-pds">&#39;</span></span>);</td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">bodyParser</span> <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>body-parser<span class="pl-pds">&#39;</span></span>);</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">Schema</span> <span class="pl-k">=</span> <span class="pl-smi">mongoose</span>.<span class="pl-smi">Schema</span>;</td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">mongoose</span> <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>mongoose<span class="pl-pds">&#39;</span></span>);</td>
-      </tr>
-      <tr>
-        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">
 </td>
       </tr>
       <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>mongoose-currency<span class="pl-pds">&#39;</span></span>).<span class="pl-en">loadType</span>(mongoose);</td>
+      </tr>
+      <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">Promotions</span> <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>../models/promotions<span class="pl-pds">&#39;</span></span>);</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> Currency <span class="pl-k">=</span> <span class="pl-smi">mongoose</span>.<span class="pl-smi">Types</span>.<span class="pl-smi">Currency</span>;</td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
@@ -1121,308 +1121,136 @@
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> promotionSchema <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Schema</span>({</td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-k">const</span> <span class="pl-c1">promoRouter</span> <span class="pl-k">=</span> <span class="pl-smi">express</span>.<span class="pl-en">Router</span>();</td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">    name<span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">        type<span class="pl-k">:</span> <span class="pl-c1">String</span>,</td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">promoRouter</span>.<span class="pl-en">use</span>(<span class="pl-smi">bodyParser</span>.<span class="pl-en">json</span>());</td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">        required<span class="pl-k">:</span> <span class="pl-c1">true</span>,</td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line">
-</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">        unique<span class="pl-k">:</span> <span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">promoRouter</span>.<span class="pl-en">route</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>/<span class="pl-pds">&#39;</span></span>)</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">    },</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">.<span class="pl-c1">get</span>((<span class="pl-smi">req</span>,<span class="pl-smi">res</span>,<span class="pl-smi">next</span>) <span class="pl-k">=&gt;</span> {</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">    description<span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">Promotions</span>.<span class="pl-c1">find</span>({})</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">        type<span class="pl-k">:</span> <span class="pl-c1">String</span>,</td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">then</span>((<span class="pl-smi">promotions</span>) <span class="pl-k">=&gt;</span> {</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">        required<span class="pl-k">:</span> <span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-smi">statusCode</span> <span class="pl-k">=</span> <span class="pl-c1">200</span>;</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    },</td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">setHeader</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Content-Type<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>application/json<span class="pl-pds">&#39;</span></span>);</td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">    image<span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">json</span>(promotions);</td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">        type<span class="pl-k">:</span> <span class="pl-c1">String</span>,</td>
       </tr>
       <tr>
         <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="LC19" class="blob-code blob-code-inner js-file-line">    }, (<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err))</td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">        required<span class="pl-k">:</span> <span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="LC20" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">catch</span>((<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err));</td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">    },</td>
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line">})</td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">    label<span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="LC22" class="blob-code blob-code-inner js-file-line">.<span class="pl-en">post</span>((<span class="pl-smi">req</span>, <span class="pl-smi">res</span>, <span class="pl-smi">next</span>) <span class="pl-k">=&gt;</span> {</td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">        type<span class="pl-k">:</span> <span class="pl-c1">String</span>,</td>
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">Promotions</span>.<span class="pl-en">create</span>(<span class="pl-smi">req</span>.<span class="pl-c1">body</span>)</td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">        default<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">&#39;</span><span class="pl-pds">&#39;</span></span></td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="LC24" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">then</span>((<span class="pl-smi">promotion</span>) <span class="pl-k">=&gt;</span> {</td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">    },</td>
       </tr>
       <tr>
         <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="LC25" class="blob-code blob-code-inner js-file-line">        <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Promotion Created <span class="pl-pds">&#39;</span></span>, promotion);</td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">    price<span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-smi">statusCode</span> <span class="pl-k">=</span> <span class="pl-c1">200</span>;</td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">        type<span class="pl-k">:</span> Currency,</td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">setHeader</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Content-Type<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>application/json<span class="pl-pds">&#39;</span></span>);</td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">        required<span class="pl-k">:</span> <span class="pl-c1">true</span>,</td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">json</span>(promotion);</td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">        min<span class="pl-k">:</span> <span class="pl-c1">0</span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">    }, (<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err))</td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">    },</td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">catch</span>((<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err));</td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">    featured<span class="pl-k">:</span> {</td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">})</td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">        type<span class="pl-k">:</span> <span class="pl-c1">Boolean</span>,</td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">.<span class="pl-en">put</span>((<span class="pl-smi">req</span>, <span class="pl-smi">res</span>, <span class="pl-smi">next</span>) <span class="pl-k">=&gt;</span> {</td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">        default<span class="pl-k">:</span><span class="pl-c1">false</span>      </td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">res</span>.<span class="pl-smi">statusCode</span> <span class="pl-k">=</span> <span class="pl-c1">403</span>;</td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">    }</td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">res</span>.<span class="pl-en">end</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>PUT operation not supported on /promotions<span class="pl-pds">&#39;</span></span>);</td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">}, {</td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">})</td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">    timestamps<span class="pl-k">:</span> <span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">.<span class="pl-c1">delete</span>((<span class="pl-smi">req</span>, <span class="pl-smi">res</span>, <span class="pl-smi">next</span>) <span class="pl-k">=&gt;</span> {</td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">});</td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">Promotions</span>.<span class="pl-c1">remove</span>({})</td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> Promotions <span class="pl-k">=</span> <span class="pl-smi">mongoose</span>.<span class="pl-en">model</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Promotion<span class="pl-pds">&#39;</span></span>, promotionSchema);</td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="LC38" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">then</span>((<span class="pl-smi">resp</span>) <span class="pl-k">=&gt;</span> {</td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="LC39" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-smi">statusCode</span> <span class="pl-k">=</span> <span class="pl-c1">200</span>;</td>
-      </tr>
-      <tr>
-        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="LC40" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">setHeader</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Content-Type<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>application/json<span class="pl-pds">&#39;</span></span>);</td>
-      </tr>
-      <tr>
-        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">json</span>(resp);</td>
-      </tr>
-      <tr>
-        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">    }, (<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err))</td>
-      </tr>
-      <tr>
-        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="LC43" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">catch</span>((<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err));    </td>
-      </tr>
-      <tr>
-        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="LC44" class="blob-code blob-code-inner js-file-line">});</td>
-      </tr>
-      <tr>
-        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class="pl-smi">promoRouter</span>.<span class="pl-en">route</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>/:promoId<span class="pl-pds">&#39;</span></span>)</td>
-      </tr>
-      <tr>
-        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="LC47" class="blob-code blob-code-inner js-file-line">.<span class="pl-c1">get</span>((<span class="pl-smi">req</span>,<span class="pl-smi">res</span>,<span class="pl-smi">next</span>) <span class="pl-k">=&gt;</span> {</td>
-      </tr>
-      <tr>
-        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">Promotions</span>.<span class="pl-en">findById</span>(<span class="pl-smi">req</span>.<span class="pl-smi">params</span>.<span class="pl-smi">promoId</span>)</td>
-      </tr>
-      <tr>
-        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="LC49" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">then</span>((<span class="pl-smi">promotion</span>) <span class="pl-k">=&gt;</span> {</td>
-      </tr>
-      <tr>
-        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-smi">statusCode</span> <span class="pl-k">=</span> <span class="pl-c1">200</span>;</td>
-      </tr>
-      <tr>
-        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">setHeader</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Content-Type<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>application/json<span class="pl-pds">&#39;</span></span>);</td>
-      </tr>
-      <tr>
-        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="LC52" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">json</span>(promotion);</td>
-      </tr>
-      <tr>
-        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="LC53" class="blob-code blob-code-inner js-file-line">    }, (<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err))</td>
-      </tr>
-      <tr>
-        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="LC54" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">catch</span>((<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err));</td>
-      </tr>
-      <tr>
-        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="LC55" class="blob-code blob-code-inner js-file-line">})</td>
-      </tr>
-      <tr>
-        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="LC56" class="blob-code blob-code-inner js-file-line">.<span class="pl-en">post</span>((<span class="pl-smi">req</span>, <span class="pl-smi">res</span>, <span class="pl-smi">next</span>) <span class="pl-k">=&gt;</span> {</td>
-      </tr>
-      <tr>
-        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="LC57" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">res</span>.<span class="pl-smi">statusCode</span> <span class="pl-k">=</span> <span class="pl-c1">403</span>;</td>
-      </tr>
-      <tr>
-        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="LC58" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">res</span>.<span class="pl-en">end</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>POST operation not supported on /promotions/<span class="pl-pds">&#39;</span></span><span class="pl-k">+</span> <span class="pl-smi">req</span>.<span class="pl-smi">params</span>.<span class="pl-smi">promoId</span>);</td>
-      </tr>
-      <tr>
-        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="LC59" class="blob-code blob-code-inner js-file-line">})</td>
-      </tr>
-      <tr>
-        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="LC60" class="blob-code blob-code-inner js-file-line">.<span class="pl-en">put</span>((<span class="pl-smi">req</span>, <span class="pl-smi">res</span>, <span class="pl-smi">next</span>) <span class="pl-k">=&gt;</span> {</td>
-      </tr>
-      <tr>
-        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="LC61" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">Promotions</span>.<span class="pl-en">findByIdAndUpdate</span>(<span class="pl-smi">req</span>.<span class="pl-smi">params</span>.<span class="pl-smi">promoId</span>, {</td>
-      </tr>
-      <tr>
-        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line">        $set<span class="pl-k">:</span> <span class="pl-smi">req</span>.<span class="pl-c1">body</span></td>
-      </tr>
-      <tr>
-        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">    }, { new<span class="pl-k">:</span> <span class="pl-c1">true</span> })</td>
-      </tr>
-      <tr>
-        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="LC64" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">then</span>((<span class="pl-smi">promotion</span>) <span class="pl-k">=&gt;</span> {</td>
-      </tr>
-      <tr>
-        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-smi">statusCode</span> <span class="pl-k">=</span> <span class="pl-c1">200</span>;</td>
-      </tr>
-      <tr>
-        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">setHeader</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Content-Type<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>application/json<span class="pl-pds">&#39;</span></span>);</td>
-      </tr>
-      <tr>
-        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="LC67" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">json</span>(promotion);</td>
-      </tr>
-      <tr>
-        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
-        <td id="LC68" class="blob-code blob-code-inner js-file-line">    }, (<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err))</td>
-      </tr>
-      <tr>
-        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
-        <td id="LC69" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">catch</span>((<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err));</td>
-      </tr>
-      <tr>
-        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
-        <td id="LC70" class="blob-code blob-code-inner js-file-line">})</td>
-      </tr>
-      <tr>
-        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
-        <td id="LC71" class="blob-code blob-code-inner js-file-line">.<span class="pl-c1">delete</span>((<span class="pl-smi">req</span>, <span class="pl-smi">res</span>, <span class="pl-smi">next</span>) <span class="pl-k">=&gt;</span> {</td>
-      </tr>
-      <tr>
-        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line">    <span class="pl-smi">Promotions</span>.<span class="pl-en">findByIdAndRemove</span>(<span class="pl-smi">req</span>.<span class="pl-smi">params</span>.<span class="pl-smi">promoId</span>)</td>
-      </tr>
-      <tr>
-        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">then</span>((<span class="pl-smi">resp</span>) <span class="pl-k">=&gt;</span> {</td>
-      </tr>
-      <tr>
-        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
-        <td id="LC74" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-smi">statusCode</span> <span class="pl-k">=</span> <span class="pl-c1">200</span>;</td>
-      </tr>
-      <tr>
-        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">setHeader</span>(<span class="pl-s"><span class="pl-pds">&#39;</span>Content-Type<span class="pl-pds">&#39;</span></span>, <span class="pl-s"><span class="pl-pds">&#39;</span>application/json<span class="pl-pds">&#39;</span></span>);</td>
-      </tr>
-      <tr>
-        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">        <span class="pl-smi">res</span>.<span class="pl-en">json</span>(resp);</td>
-      </tr>
-      <tr>
-        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
-        <td id="LC77" class="blob-code blob-code-inner js-file-line">    }, (<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err))</td>
-      </tr>
-      <tr>
-        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line">    .<span class="pl-c1">catch</span>((<span class="pl-smi">err</span>) <span class="pl-k">=&gt;</span> <span class="pl-en">next</span>(err));</td>
-      </tr>
-      <tr>
-        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">});</td>
-      </tr>
-      <tr>
-        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
-        <td id="LC80" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
-        <td id="LC81" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">module</span>.<span class="pl-smi">exports</span> <span class="pl-k">=</span> promoRouter;</td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class="pl-c1">module</span>.<span class="pl-smi">exports</span> <span class="pl-k">=</span> Promotions;</td>
       </tr>
 </table>
 
@@ -1442,7 +1270,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blame/1d941f2f91d171192ec798ce00c925b93489236b/Assignment%202/conFusionServer/routes/promoRouter.js">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blame/1d941f2f91d171192ec798ce00c925b93489236b/Assignment%202/conFusionServer/models/promotions.js">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
@@ -1467,10 +1295,10 @@
      hidden
      data-tagsearch-url="/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/find-symbols"
      data-tagsearch-ref="master"
-     data-tagsearch-path="Assignment 2/conFusionServer/routes/promoRouter.js"
+     data-tagsearch-path="Assignment 2/conFusionServer/models/promotions.js"
      data-tagsearch-lang="JavaScript"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:110435496,&quot;ref&quot;:&quot;master&quot;,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C78B:3234:7814:B1BD:5D9F30B0&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/routes/promoRouter.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/routes&quot;,&quot;user_id&quot;:49807271}}"
-     data-hydro-click-hmac="27d7e1c12ab90fea9ee716fcb2548176b7806c599ce67c2827afd0a30c7d0dd8">
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:110435496,&quot;ref&quot;:&quot;master&quot;,&quot;client_id&quot;:&quot;404862559.1562930027&quot;,&quot;originating_request_id&quot;:&quot;C779:2A54:10268:17924:5D9F3058&quot;,&quot;originating_url&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/blob/master/Assignment%202/conFusionServer/models/promotions.js&quot;,&quot;referrer&quot;:&quot;https://github.com/zeeshan87/Server-side-Development-with-NodeJS-Express-and-MongoDB/tree/master/Assignment%202/conFusionServer/models&quot;,&quot;user_id&quot;:49807271}}"
+     data-hydro-click-hmac="9d56fdb3a5aacd5284a3b79e6bd427b823a62c9dc18db318eb3fd4c36fdea99d">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
@@ -1492,7 +1320,7 @@
 <div class="footer container-lg width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.84138s from unicorn-598889d79f-2gl9f">GitHub</span>, Inc.</li>
+      <li class="mr-3 mr-lg-0">&copy; 2019 <span title="0.38888s from unicorn-b5f6954b8-p996w">GitHub</span>, Inc.</li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
